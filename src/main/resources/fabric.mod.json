@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "chrismod",
+	"version": "${version}",
+	"name": "Chris's Random Bullshit",
+	"description": "This is a mod for me and my friends that I made, If you're downloading this from a site other than github then that's definitely not me. Enjoy!",
+	"authors": [
+		"Chris"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/chrismod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chris.chrismod.ChrisSRandomBullshit"
+		],
+		"fabric-datagen": [
+			"net.chris.chrismod.ChrisSRandomBullshitDataGenerator"
+		]
+	},
+	"mixins": [
+		"chrismod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

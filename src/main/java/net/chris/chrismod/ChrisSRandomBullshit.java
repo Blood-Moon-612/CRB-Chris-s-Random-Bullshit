@@ -1,5 +1,6 @@
 package net.chris.chrismod;
 
+import net.chris.chrismod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -13,6 +14,7 @@ public class ChrisSRandomBullshit implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {

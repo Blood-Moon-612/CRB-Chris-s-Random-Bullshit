@@ -1,5 +1,6 @@
 package net.chris.chrismod;
 
+import net.chris.chrismod.block.ModBlocks;
 import net.chris.chrismod.creativemodetab.ModCreativeModeTabs;
 import net.chris.chrismod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,7 @@ public class ChrisSRandomBullshit implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

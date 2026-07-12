@@ -1,5 +1,6 @@
 package net.chris.chrismod.datagen;
 
+import net.chris.chrismod.block.ModBlocks;
 import net.chris.chrismod.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
@@ -14,7 +15,17 @@ public class ModModelProvider extends FabricModelProvider{
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-
+        blockModelGenerators.createTrivialCube(ModBlocks.RUBY_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.SAPPHIRE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_SAPPHIRE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_FLUORITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.RUBY_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.SAPPHIRE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_RUBY_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_FLUORITE_ORE);
     }
 
     @Override

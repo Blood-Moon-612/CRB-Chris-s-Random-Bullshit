@@ -3,7 +3,25 @@
   "item.chrismod.fluorite": "Fluorite",
   "item.chrismod.raw_fluorite": "Raw Fluorite",
   "item.chrismod.sapphire": "Sapphire",
-  "item.chrismod.raw_sapphire": "Raw Sapphire"
+  "item.chrismod.raw_sapphire": "Raw Sapphire",
+  "item.chrismod.silly": "Silly",
+
+
+  "block.chrismod.ruby_block": "Block of Ruby",
+  "block.chrismod.sapphire_block": "Block of sapphire",
+  "block.chrismod.fluorite_block": "Block of Fluorite",
+  "block.chrismod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.chrismod.raw_fluorite_block": "Block of Raw Fluorite",
+  "block.chrismod.ruby_ore": "Ruby Ore",
+  "block.chrismod.sapphire_ore": "Sapphire Ore",
+  "block.chrismod.fluorite_ore": "Fluorite Ore",
+  "block.chrismod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.chrismod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.chrismod.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
+
+  "creativemodetab.chrismod.random_bullshit_items": "Random Bullshit",
+  "creativemodetab.chrismod.silly_items": "Silly Items",
+  "creativemodetab.chrismod.random_bullshit_blocks": "Random Bullshit Blocks"
 
 
 }

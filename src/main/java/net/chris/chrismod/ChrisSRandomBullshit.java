@@ -1,5 +1,6 @@
 package net.chris.chrismod;
 
+import net.chris.chrismod.creativemodetab.ModCreativeModeTabs;
 import net.chris.chrismod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,8 @@ public class ChrisSRandomBullshit implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
 		ModItems.registerModItems();
 	}
 

@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item RAW_FLUORITE = registerItem("raw_fluorite", Item::new);
     public static final Item SAPPHIRE = registerItem("sapphire", Item::new);
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire", Item::new);
+    public static final Item SILLY = registerItem("silly", Item::new);
 
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {

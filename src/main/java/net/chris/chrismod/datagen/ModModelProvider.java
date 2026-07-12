@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider{
         itemModelGenerators.generateFlatItem(ModItems.RAW_FLUORITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.SAPPHIRE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RAW_SAPPHIRE, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.SILLY, ModelTemplates.FLAT_ITEM);
 
     }
 }

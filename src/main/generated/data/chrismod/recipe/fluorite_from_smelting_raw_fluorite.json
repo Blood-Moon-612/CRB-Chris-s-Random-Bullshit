@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 160,
+  "experience": 0.35,
+  "group": "fluorite",
+  "ingredient": "chrismod:raw_fluorite",
+  "result": {
+    "id": "chrismod:fluorite"
+  }
+}

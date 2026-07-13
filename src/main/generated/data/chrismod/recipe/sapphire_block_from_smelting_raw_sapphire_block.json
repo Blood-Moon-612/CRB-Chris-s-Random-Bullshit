@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 1800,
+  "experience": 5.85,
+  "group": "sapphire",
+  "ingredient": "chrismod:raw_sapphire_block",
+  "result": {
+    "id": "chrismod:sapphire_block"
+  }
+}

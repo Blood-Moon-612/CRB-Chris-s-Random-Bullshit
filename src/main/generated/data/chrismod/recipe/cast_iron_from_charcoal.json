@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "steel",
+  "key": {
+    "C": "minecraft:charcoal",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "id": "chrismod:cast_iron"
+  }
+}

@@ -4,6 +4,7 @@ import net.chris.chrismod.ChrisSRandomBullshit;
 import net.chris.chrismod.block.ModBlocks;
 import net.chris.chrismod.item.ModItems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
+import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -22,6 +23,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_SAPPHIRE);
                         output.accept(ModItems.FLUORITE);
                         output.accept(ModItems.RAW_FLUORITE);
+                        output.accept(ModItems.COPPER_DUST);
+                        output.accept(ModItems.IRON_DUST);
+                        output.accept(ModItems.GOLD_DUST);
+                        output.accept(ModItems.STEEL_INGOT);
+                        output.accept(ModItems.STEEL_DUST);
+                        output.accept(ModItems.CAST_IRON);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.MORTAR);
+                        output.accept(ModItems.IRON_MORTAR);
+                        output.accept(ModItems.IRON_HAMMER);
+
 
                     }).build());
     public static final CreativeModeTab RANDOM_BULLSHIT_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

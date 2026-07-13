@@ -1,0 +1,4 @@
+// 26.1.2	-999999999-01-01T00:00:00	Chris's Random Bullshit/Tags for minecraft:block
+2101e633a12262953387b407c826da45c975098b data/minecraft/tags/block/mineable/pickaxe.json
+d54801a04a76520981edeafb56df368ba24985ea data/minecraft/tags/block/needs_diamond_tool.json
+07ba214934d669403b4060cc68af43b695525b79 data/minecraft/tags/block/needs_iron_tool.json

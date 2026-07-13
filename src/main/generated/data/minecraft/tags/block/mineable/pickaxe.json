@@ -1,0 +1,15 @@
+{
+  "values": [
+    "chrismod:ruby_block",
+    "chrismod:sapphire_block",
+    "chrismod:fluorite_block",
+    "chrismod:ruby_ore",
+    "chrismod:sapphire_ore",
+    "chrismod:fluorite_ore",
+    "chrismod:raw_fluorite_block",
+    "chrismod:raw_sapphire_block",
+    "chrismod:deepslate_ruby_ore",
+    "chrismod:deepslate_sapphire_ore",
+    "chrismod:deepslate_fluorite_ore"
+  ]
+}

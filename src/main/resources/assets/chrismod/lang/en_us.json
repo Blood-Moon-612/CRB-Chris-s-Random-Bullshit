@@ -4,6 +4,21 @@
   "item.chrismod.raw_fluorite": "Raw Fluorite",
   "item.chrismod.sapphire": "Sapphire",
   "item.chrismod.raw_sapphire": "Raw Sapphire",
+  "item.chrismod.cast_iron": "Cast Iron Ingot",
+  "item.chrismod.steel_ingot": "Steel Ingot",
+  "item.chrismod.copper_dust": "Copper Dust",
+  "item.chrismod.iron_dust": "Iron Dust",
+  "item.chrismod.gold_dust": "Gold Dust",
+  "item.chrismod.steel_dust": "Steel Dust",
+
+
+
+  "item.chrismod.chisel": "Chisel",
+  "item.chrismod.mortar": "Mortar",
+  "item.chrismod.iron_mortar": "Iron Mortar",
+  "item.chrismod.iron_hammer": "Iron Hammer",
+
+
   "item.chrismod.silly": "Silly",
 
 
@@ -16,9 +31,9 @@
   "block.chrismod.sapphire_ore": "Sapphire Ore",
   "block.chrismod.fluorite_ore": "Fluorite Ore",
   "block.chrismod.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.chrismod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.chrismod.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
 
+  "block.chrismod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "creativemodetab.chrismod.random_bullshit_items": "Random Bullshit",
   "creativemodetab.chrismod.silly_items": "Silly Items",
   "creativemodetab.chrismod.random_bullshit_blocks": "Random Bullshit Blocks"

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dust",
+  "ingredients": [
+    "chrismod:steel_ingot",
+    "chrismod:mortar"
+  ],
+  "result": {
+    "id": "chrismod:steel_dust"
+  }
+}

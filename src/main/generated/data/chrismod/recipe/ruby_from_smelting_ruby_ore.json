@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 180,
+  "experience": 0.5,
+  "group": "ruby",
+  "ingredient": "chrismod:ruby_ore",
+  "result": {
+    "id": "chrismod:ruby"
+  }
+}

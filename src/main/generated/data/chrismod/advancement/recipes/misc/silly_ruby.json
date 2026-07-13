@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silly": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chrismod:silly"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chrismod:silly_ruby"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silly"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chrismod:silly_ruby"
+    ]
+  }
+}

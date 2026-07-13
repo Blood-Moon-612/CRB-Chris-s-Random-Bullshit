@@ -1,0 +1,12 @@
+// 26.1.2	-999999999-01-01T00:00:00	Chris's Random Bullshit/Block Loot Tables
+2618deb728b393121a5e85831caade579de759be data/chrismod/loot_table/blocks/deepslate_fluorite_ore.json
+108947372b1b1718199525b79fdb115f4ccdf5f0 data/chrismod/loot_table/blocks/deepslate_ruby_ore.json
+3a8f93db96d4ac71e957ae377f3865322026114d data/chrismod/loot_table/blocks/deepslate_sapphire_ore.json
+f39fb8dee0eaa3d4399a6014edec4371d4cdb95a data/chrismod/loot_table/blocks/fluorite_block.json
+e304bc5b905d24d509246a5de48586e0308bfd0d data/chrismod/loot_table/blocks/fluorite_ore.json
+69aaab20bdd6e51fd34f1eb4786352ae6e93958b data/chrismod/loot_table/blocks/raw_fluorite_block.json
+440b50bc2290e5e42c8566ca779bc6a274720b6e data/chrismod/loot_table/blocks/raw_sapphire_block.json
+0b2590940e29bb8f9453badcc1edb711701386ef data/chrismod/loot_table/blocks/ruby_block.json
+5c917c899f53120fad854ba1a78033275de34969 data/chrismod/loot_table/blocks/ruby_ore.json
+d0ca75fdb9f5e493f2d596e39e524e3973bdd317 data/chrismod/loot_table/blocks/sapphire_block.json
+c990b4ad082525a7e68c787295a689437cf6ec0b data/chrismod/loot_table/blocks/sapphire_ore.json

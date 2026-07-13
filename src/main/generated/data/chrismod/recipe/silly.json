@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "silly",
+  "key": {
+    "3": "chrismod:ruby"
+  },
+  "pattern": [
+    "3 3",
+    " 3 ",
+    "3 3"
+  ],
+  "result": {
+    "id": "chrismod:silly"
+  }
+}

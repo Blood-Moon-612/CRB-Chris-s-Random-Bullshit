@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dust",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "P": "chrismod:iron_plate"
+  },
+  "pattern": [
+    " I ",
+    "PIP",
+    "PPP"
+  ],
+  "result": {
+    "id": "chrismod:iron_mortar"
+  }
+}

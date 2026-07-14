@@ -1,11 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_mortar": {
+    "has_iron_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "chrismod:iron_mortar"
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_iron_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chrismod:iron_plate"
           }
         ]
       },
@@ -13,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "chrismod:copper_dust_from_iron_mortar"
+        "recipe": "chrismod:iron_mortar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_iron_mortar"
+      "has_iron_plate",
+      "has_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "chrismod:copper_dust_from_iron_mortar"
+      "chrismod:iron_mortar"
     ]
   }
 }

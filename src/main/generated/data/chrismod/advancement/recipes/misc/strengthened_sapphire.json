@@ -1,11 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_mortar": {
+    "has_fluorite": {
       "conditions": {
         "items": [
           {
-            "items": "chrismod:iron_mortar"
+            "items": "chrismod:fluorite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sapphire": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chrismod:sapphire"
           }
         ]
       },
@@ -13,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "chrismod:copper_dust_from_iron_mortar"
+        "recipe": "chrismod:strengthened_sapphire"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +31,13 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_iron_mortar"
+      "has_sapphire",
+      "has_fluorite"
     ]
   ],
   "rewards": {
     "recipes": [
-      "chrismod:copper_dust_from_iron_mortar"
+      "chrismod:strengthened_sapphire"
     ]
   }
 }

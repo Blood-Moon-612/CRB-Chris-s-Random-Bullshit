@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "dust",
+  "group": "plate",
   "ingredients": [
-    "minecraft:copper_ingot",
-    "chrismod:iron_mortar"
+    "minecraft:iron_ingot",
+    "chrismod:iron_hammer"
   ],
   "result": {
-    "id": "chrismod:copper_dust"
+    "id": "chrismod:iron_plate"
   }
 }

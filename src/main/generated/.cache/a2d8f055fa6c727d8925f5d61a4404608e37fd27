@@ -13,6 +13,7 @@ ab1ab6f1b29bf2bc7b7c67969458a51fded39150 assets/chrismod/blockstates/ruby_block.
 2507c3fdc9ec3bd199a88c65c357b6205b5b23d4 assets/chrismod/items/cast_iron.json
 320d4b4b8706b09db2e5329abbe5570068db2f9e assets/chrismod/items/chisel.json
 02a7ba19bbb4eff8441ec1619925d3035e986c63 assets/chrismod/items/copper_dust.json
+918cf8dfe892da7672dc596ec7b6c6cb686c66c6 assets/chrismod/items/copper_plate.json
 26a1174ffb58c2ce56ea184a97c25bd2d6cf6ab8 assets/chrismod/items/deepslate_fluorite_ore.json
 7e280d42e2fd71cf92678e8a5097ea5c55994d00 assets/chrismod/items/deepslate_ruby_ore.json
 1815f3d0a4345e01864a851e2121cd0413c356fc assets/chrismod/items/deepslate_sapphire_ore.json
@@ -20,9 +21,11 @@ ab1ab6f1b29bf2bc7b7c67969458a51fded39150 assets/chrismod/blockstates/ruby_block.
 9e743e57ae67a7fc3c391ee2d0301a3935dcde1c assets/chrismod/items/fluorite_block.json
 bccc1eb36a8eaa618a3682c651eb0d9e6b3ba1cb assets/chrismod/items/fluorite_ore.json
 cdd2bb8421c6045b5e8dc8b864baa28916de7731 assets/chrismod/items/gold_dust.json
+adfce3b3cd7e84bdeb02f1a34ab169c6070d280b assets/chrismod/items/gold_plate.json
 8bce4ee3907b71c8b0043ae8912bac9a6136461a assets/chrismod/items/iron_dust.json
 d35936ebc7d2d34e77f90a29ed33043fd5cf660a assets/chrismod/items/iron_hammer.json
 ce82aded76b2b81dd91e8f9ceadef21c184dcbbf assets/chrismod/items/iron_mortar.json
+86c7debe00489bb0a31922837e3ec942db8fd8af assets/chrismod/items/iron_plate.json
 395fd1c1282f9814cc18234dcc44463c53ac1c97 assets/chrismod/items/mortar.json
 3ddb22e4e93e3a94eb7ddeff391abf14ce251900 assets/chrismod/items/raw_fluorite.json
 b9ad8a82e3452ea24b1ddbc040d3c5291c159200 assets/chrismod/items/raw_fluorite_block.json
@@ -37,6 +40,7 @@ f393333d263dbd3af337e7f81b721821135f0b9a assets/chrismod/items/ruby_ore.json
 af35fab8c2fc030a183ba334c631554b05a92d6d assets/chrismod/items/silly.json
 fabfbcfd4e057665e2ecbaf203ed014a662dfe96 assets/chrismod/items/steel_dust.json
 43d79c6f3c831449b6548ea900a0e76214a2fc95 assets/chrismod/items/steel_ingot.json
+65780ac8ef4d0e8a8526d6da508aa0a9835c850e assets/chrismod/items/steel_plate.json
 ab2d2b92ad8bf5919eadc8e8f199e5d8cbdcec28 assets/chrismod/models/block/deepslate_fluorite_ore.json
 1508ba4252295232d0c7ad710eec1babc4d96507 assets/chrismod/models/block/deepslate_ruby_ore.json
 b51725b3d4201585e97d9d21f774429a3a096570 assets/chrismod/models/block/deepslate_sapphire_ore.json
@@ -51,11 +55,14 @@ aeb583d866d37f7bb2e2c5f555a05bb9e4b40a5d assets/chrismod/models/block/fluorite_b
 111ef830c6a63c68c586d3c4ec798baa131bc51c assets/chrismod/models/item/cast_iron.json
 b5c18ce5d069ba6e88509ad89573ea7a5a2c62f7 assets/chrismod/models/item/chisel.json
 3740b5a42387bd99797dace203e39c4fc464ab02 assets/chrismod/models/item/copper_dust.json
+2566235d537b962446034f8a5b19e26d104744f3 assets/chrismod/models/item/copper_plate.json
 d88eef76f1803c0d5854411a55c5b743b658460a assets/chrismod/models/item/fluorite.json
 b48caf6b80b8479e18c7c45d5bb2390f56231d41 assets/chrismod/models/item/gold_dust.json
+a1e35b47daa8cd4fbcf47d46eeab71566f289ce4 assets/chrismod/models/item/gold_plate.json
 86ba45b4de07c3bd40abef235782dc71da377057 assets/chrismod/models/item/iron_dust.json
 9b7934721b9e1607887b14a0eb1d3c427d9ee300 assets/chrismod/models/item/iron_hammer.json
 8465c63630c6eac844a9477bc1f8d4354ff5faf7 assets/chrismod/models/item/iron_mortar.json
+06fa4f28af7310aabc0332f7595edff53cf6c3cd assets/chrismod/models/item/iron_plate.json
 d85b93cc03c7c38e93cca63df7203311d79105f5 assets/chrismod/models/item/mortar.json
 76c65756c1008799ca3e3fcb0b15f9ea85834945 assets/chrismod/models/item/raw_fluorite.json
 5b3074c9d627cbc403b8a3a6268a22a9d3ce5093 assets/chrismod/models/item/raw_sapphire.json
@@ -64,3 +71,4 @@ d85b93cc03c7c38e93cca63df7203311d79105f5 assets/chrismod/models/item/mortar.json
 f9370cc6220c60796bb1326fb6ca98f02c300b8a assets/chrismod/models/item/silly.json
 990ecbc782e8187037763edb2aeb1034df49c2cf assets/chrismod/models/item/steel_dust.json
 7f67ef4a49b181c97103df395376850daa3558f0 assets/chrismod/models/item/steel_ingot.json
+6fd1a97873a8904e96b4141f3f10bdf02790be98 assets/chrismod/models/item/steel_plate.json

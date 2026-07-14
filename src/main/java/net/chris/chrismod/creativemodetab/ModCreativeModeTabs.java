@@ -24,15 +24,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLUORITE);
                         output.accept(ModItems.RAW_FLUORITE);
                         output.accept(ModItems.COPPER_DUST);
+                        output.accept(ModItems.COPPER_PLATE);
                         output.accept(ModItems.IRON_DUST);
+                        output.accept(ModItems.IRON_PLATE);
                         output.accept(ModItems.GOLD_DUST);
+                        output.accept(ModItems.GOLD_PLATE);
                         output.accept(ModItems.STEEL_INGOT);
+                        output.accept(ModItems.STEEL_PLATE);
                         output.accept(ModItems.STEEL_DUST);
                         output.accept(ModItems.CAST_IRON);
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.MORTAR);
                         output.accept(ModItems.IRON_MORTAR);
+                        output.accept(ModItems.RUBY_MORTAR);
+                        output.accept(ModItems.STONE_HAMMER);
                         output.accept(ModItems.IRON_HAMMER);
+                        output.accept(ModItems.RUBY_HAMMER);
 
 
                     }).build());

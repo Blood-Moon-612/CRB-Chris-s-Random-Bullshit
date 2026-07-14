@@ -4,7 +4,7 @@
   "group": "dust",
   "ingredients": [
     "minecraft:copper_ingot",
-    "chrismod:iron_mortar"
+    "chrismod:ruby_mortar"
   ],
   "result": {
     "id": "chrismod:copper_dust"

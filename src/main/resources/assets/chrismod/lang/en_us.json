@@ -10,13 +10,20 @@
   "item.chrismod.iron_dust": "Iron Dust",
   "item.chrismod.gold_dust": "Gold Dust",
   "item.chrismod.steel_dust": "Steel Dust",
+  "item.chrismod.iron_plate": "Iron Plate",
+  "item.chrismod.copper_plate": "Copper Plate",
+  "item.chrismod.gold_plate": "Gold Plate",
+  "item.chrismod.steel_plate": "Steel Plate",
 
 
 
   "item.chrismod.chisel": "Chisel",
   "item.chrismod.mortar": "Mortar",
   "item.chrismod.iron_mortar": "Iron Mortar",
+  "item.chrismod.ruby_mortar": "Ruby Mortar",
+  "item.chrismod.stone_hammer": "Stone Hammer",
   "item.chrismod.iron_hammer": "Iron Hammer",
+  "item.chrismod.ruby_hammer": "Ruby Hammer",
 
 
   "item.chrismod.silly": "Silly",

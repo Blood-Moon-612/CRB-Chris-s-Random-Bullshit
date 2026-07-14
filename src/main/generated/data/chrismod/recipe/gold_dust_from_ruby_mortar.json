@@ -3,10 +3,10 @@
   "category": "misc",
   "group": "dust",
   "ingredients": [
-    "minecraft:copper_ingot",
-    "chrismod:iron_mortar"
+    "minecraft:gold_ingot",
+    "chrismod:ruby_mortar"
   ],
   "result": {
-    "id": "chrismod:copper_dust"
+    "id": "chrismod:gold_dust"
   }
 }

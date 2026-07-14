@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dust",
+  "key": {
+    "R": "chrismod:ruby"
+  },
+  "pattern": [
+    " R ",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "chrismod:ruby_mortar"
+  }
+}

@@ -27,6 +27,10 @@ public class ModItems {
     public static final Item COPPER_DUST = registerItem("copper_dust", Item::new);
     public static final Item GOLD_DUST = registerItem("gold_dust", Item::new);
     public static final Item IRON_DUST = registerItem("iron_dust", Item::new);
+    public static final Item IRON_PLATE = registerItem("iron_plate", Item::new);
+    public static final Item COPPER_PLATE = registerItem("copper_plate", Item::new);
+    public static final Item GOLD_PLATE = registerItem("gold_plate", Item::new);
+    public static final Item STEEL_PLATE = registerItem("steel_plate", Item::new);
 
 
     public static final Item SILLY = registerItem("silly", Item::new);
@@ -34,8 +38,10 @@ public class ModItems {
     public static final Item CHISEL= registerItem("chisel", properties -> new ChiselItem(properties.durability(4)));
     public static final Item MORTAR = registerItem("mortar", properties -> new MortarItem(properties.durability(32)));
     public static final Item IRON_MORTAR = registerItem("iron_mortar", properties -> new MortarItem(properties.durability(64)));
+    public static final Item RUBY_MORTAR = registerItem("ruby_mortar", properties -> new MortarItem(properties.durability(96)));
+    public static final Item STONE_HAMMER = registerItem("stone_hammer", properties -> new HammerItem(properties.durability(64)));
     public static final Item IRON_HAMMER = registerItem("iron_hammer", properties -> new HammerItem(properties.durability(128)));
-
+    public static final Item RUBY_HAMMER  = registerItem("ruby_hammer", properties -> new HammerItem(properties.durability(192)));
 
 
 

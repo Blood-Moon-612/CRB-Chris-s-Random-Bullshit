@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sapphire",
+  "key": {
+    "F": "chrismod:fluorite",
+    "S": "chrismod:sapphire"
+  },
+  "pattern": [
+    " F ",
+    "FSF",
+    " F "
+  ],
+  "result": {
+    "id": "chrismod:sapphire"
+  }
+}

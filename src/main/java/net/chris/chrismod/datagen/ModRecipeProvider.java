@@ -51,7 +51,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 oreSmelting(RAW_FLUORITE_BLOCK_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModBlocks.FLUORITE_BLOCK, 3.15f, 1440, "fluorite");
                 oreBlasting(RAW_FLUORITE_BLOCK_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModBlocks.FLUORITE_BLOCK, 3.15f, 720, "fluorite");
 
-                oreBlasting(CAST_IRON, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.STEEL_INGOT, 3.15f, 720, "STEEL");
+                oreBlasting(CAST_IRON, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.STEEL_INGOT, 0.75f, 250, "STEEL");
 
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.RUBY, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_BLOCK);
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_BLOCK);
@@ -117,10 +117,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
 
+
                 shapeless(RecipeCategory.MISC, ModItems.COPPER_DUST, 1)
                         .requires(Items.COPPER_INGOT)
-                        .requires(ModItems.MORTAR)
-                        .unlockedBy(getHasName(ModItems.MORTAR), has(ModItems.MORTAR))
+                        .requires(ModItems.IRON_MORTAR)
+                        .unlockedBy(getHasName(ModItems.IRON_MORTAR), has(ModItems.IRON_MORTAR))
                         .group("dust")
                         .save(output, "copper_dust_from_iron_mortar");
 
@@ -139,12 +140,98 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output, "gold_dust_from_iron_mortar");
 
 
+
+                shapeless(RecipeCategory.MISC, ModItems.COPPER_DUST, 1)
+                        .requires(Items.COPPER_INGOT)
+                        .requires(ModItems.RUBY_MORTAR)
+                        .unlockedBy(getHasName(ModItems.RUBY_MORTAR), has(ModItems.RUBY_MORTAR))
+                        .group("dust")
+                        .save(output, "copper_dust_from_ruby_mortar");
+
+                shapeless(RecipeCategory.MISC, ModItems.IRON_DUST, 1)
+                        .requires(Items.IRON_INGOT)
+                        .requires(ModItems.RUBY_MORTAR)
+                        .unlockedBy(getHasName(ModItems.RUBY_MORTAR), has(ModItems.RUBY_MORTAR))
+                        .group("dust")
+                        .save(output, "iron_dust_from_ruby_mortar");
+
+                shapeless(RecipeCategory.MISC, ModItems.GOLD_DUST, 1)
+                        .requires(Items.GOLD_INGOT)
+                        .requires(ModItems.RUBY_MORTAR)
+                        .unlockedBy(getHasName(ModItems.RUBY_MORTAR), has(ModItems.RUBY_MORTAR))
+                        .group("dust")
+                        .save(output, "gold_dust_from_ruby_mortar");
+
+
+
                 shapeless(RecipeCategory.MISC, ModItems.STEEL_DUST, 1)
                         .requires(ModItems.STEEL_INGOT)
                         .requires(ModItems.MORTAR)
                         .unlockedBy(getHasName(ModItems.MORTAR), has(ModItems.MORTAR))
                         .group("dust")
                         .save(output);
+
+
+
+                shaped(RecipeCategory.MISC, ModItems.MORTAR)
+                        .pattern(" I ")
+                        .pattern("SIS")
+                        .pattern("SSS")
+                        .define('S', Items.STONE_SLAB)
+                        .define('I', Items.IRON_INGOT)
+                        .unlockedBy(getHasName(Items.STONE_SLAB), has(Items.STONE_SLAB))
+                        .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                        .group("dust")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.IRON_MORTAR)
+                        .pattern(" I ")
+                        .pattern("PIP")
+                        .pattern("PPP")
+                        .define('I', Items.IRON_INGOT)
+                        .define('P', ModItems.IRON_PLATE)
+                        .unlockedBy(getHasName(ModItems.IRON_PLATE), has(ModItems.IRON_PLATE))
+                        .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                        .group("dust")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.RUBY_MORTAR)
+                        .pattern(" R ")
+                        .pattern("RRR")
+                        .pattern("RRR")
+                        .define('R', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("dust")
+                        .save(output);
+
+
+
+                shaped(RecipeCategory.MISC, ModItems.SAPPHIRE)
+                        .pattern(" F ")
+                        .pattern("FSF")
+                        .pattern(" F ")
+                        .define('S', ModItems.SAPPHIRE)
+                        .define('F', ModItems.FLUORITE)
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("sapphire")
+                        .save(output, "strengthened_sapphire");
+
+
+
+                shapeless(RecipeCategory.MISC, ModItems.IRON_PLATE, 1)
+                        .requires(Items.IRON_INGOT)
+                        .requires(ModItems.STONE_HAMMER)
+                        .unlockedBy(getHasName(ModItems.STONE_HAMMER), has(ModItems.STONE_HAMMER))
+                        .group("plate")
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModItems.IRON_PLATE, 1)
+                        .requires(Items.IRON_INGOT)
+                        .requires(ModItems.IRON_HAMMER)
+                        .unlockedBy(getHasName(ModItems.IRON_HAMMER), has(ModItems.IRON_HAMMER))
+                        .group("plate")
+                        .save(output, "iron_plate_from_iron_hammer");
 
 
             }

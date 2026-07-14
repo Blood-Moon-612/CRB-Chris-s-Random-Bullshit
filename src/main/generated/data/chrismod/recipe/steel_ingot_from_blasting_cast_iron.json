@@ -1,8 +1,8 @@
 {
   "type": "minecraft:blasting",
   "category": "blocks",
-  "cookingtime": 720,
-  "experience": 3.15,
+  "cookingtime": 250,
+  "experience": 0.75,
   "group": "STEEL",
   "ingredient": "chrismod:cast_iron",
   "result": {

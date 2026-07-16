@@ -1,4 +1,13 @@
 // 26.1.2	-999999999-01-01T00:00:00	Chris's Random Bullshit/Tags for minecraft:block
-2101e633a12262953387b407c826da45c975098b data/minecraft/tags/block/mineable/pickaxe.json
-d54801a04a76520981edeafb56df368ba24985ea data/minecraft/tags/block/needs_diamond_tool.json
-07ba214934d669403b4060cc68af43b695525b79 data/minecraft/tags/block/needs_iron_tool.json
+5f65baa77ba816dfd75d2cc27a2c1730c5ce162f data/minecraft/tags/block/buttons.json
+0b22cdb13d6b82ecb1d339e1ec9ece6805915328 data/minecraft/tags/block/doors.json
+8afe60d5f04d8a038900ba03326c99d35d38ad45 data/minecraft/tags/block/fence_gates.json
+0d70870a645e35c7e8b4dd6dda94a04ce1ade91a data/minecraft/tags/block/fences.json
+230c47ea04c8e6338729acd4f7ce570f66571cee data/minecraft/tags/block/mineable/pickaxe.json
+96a9f5263055f6bb36ffd6c13c5dae9c47b2eeca data/minecraft/tags/block/needs_diamond_tool.json
+cff8511682406c84ac38788b59f6da89c1593205 data/minecraft/tags/block/needs_iron_tool.json
+9e38387644b9b86276a5ee5290992ab4b74f4ebe data/minecraft/tags/block/pressure_plates.json
+66e11bffe7e5adfd82847519c045809b89e545b0 data/minecraft/tags/block/slabs.json
+c09bf2f1c1b52e9d84d2168598d1b835dad3dd9a data/minecraft/tags/block/stairs.json
+4e26b74ac7bcddec64ca510b60f10483a1a7e6b6 data/minecraft/tags/block/trapdoors.json
+f9b553949f1f89e1a028de66fcc060172a84ca87 data/minecraft/tags/block/walls.json

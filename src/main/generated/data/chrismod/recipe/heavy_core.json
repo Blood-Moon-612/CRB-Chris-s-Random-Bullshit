@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mace",
+  "ingredients": [
+    "chrismod:your_did_it"
+  ],
+  "result": {
+    "id": "minecraft:heavy_core"
+  }
+}

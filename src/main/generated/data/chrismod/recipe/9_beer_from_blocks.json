@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "beer",
+  "key": {
+    "B": "minecraft:brown_mushroom_block",
+    "G": "minecraft:glass",
+    "O": "minecraft:potion",
+    "W": "minecraft:hay_block"
+  },
+  "pattern": [
+    "GBG",
+    "GWG",
+    "GOG"
+  ],
+  "result": {
+    "count": 9,
+    "id": "chrismod:beer"
+  }
+}

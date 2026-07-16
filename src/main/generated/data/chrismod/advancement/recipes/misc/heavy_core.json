@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "chrismod:heavy_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_your_did_it": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chrismod:your_did_it"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_your_did_it"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chrismod:heavy_core"
+    ]
+  }
+}

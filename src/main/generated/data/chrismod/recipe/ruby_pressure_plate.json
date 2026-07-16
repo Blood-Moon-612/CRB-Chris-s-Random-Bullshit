@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "chrismod:ruby"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "chrismod:ruby_pressure_plate"
+  }
+}

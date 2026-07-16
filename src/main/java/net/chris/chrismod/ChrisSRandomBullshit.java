@@ -2,7 +2,9 @@ package net.chris.chrismod;
 
 import net.chris.chrismod.block.ModBlocks;
 import net.chris.chrismod.creativemodetab.ModCreativeModeTabs;
+import net.chris.chrismod.food.ModFoods;
 import net.chris.chrismod.item.ModItems;
+import net.chris.chrismod.registries.ModFuels;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -20,6 +22,7 @@ public class ChrisSRandomBullshit implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModFuels.registerFuels();
 	}
 
 	public static Identifier id(String path) {

@@ -31,6 +31,43 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK);
         dropSelf(ModBlocks.RAW_FLUORITE_BLOCK);
 
+        dropSelf(ModBlocks.MAGIC_BLOCK);
+        dropSelf(ModBlocks.GAMBLING_BLOCK);
+        dropSelf(ModBlocks.COMPRESSED_LEAVES);
+
+        dropSelf(ModBlocks.RUBY_STAIRS);
+        add(ModBlocks.RUBY_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.SAPPHIRE_STAIRS);
+        add(ModBlocks.SAPPHIRE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.FLUORITE_STAIRS);
+        add(ModBlocks.FLUORITE_SLAB, this::createSlabItemTable);
+
+        dropSelf(ModBlocks.RUBY_BUTTON);
+        dropSelf(ModBlocks.RUBY_PRESSURE_PLATE);
+        dropSelf(ModBlocks.FLUORITE_BUTTON);
+        dropSelf(ModBlocks.FLUORITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.SAPPHIRE_BUTTON);
+        dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+
+        dropSelf(ModBlocks.RUBY_FENCE);
+        dropSelf(ModBlocks.RUBY_FENCE_GATE);
+        dropSelf(ModBlocks.RUBY_WALL);
+        dropSelf(ModBlocks.FLUORITE_FENCE);
+        dropSelf(ModBlocks.FLUORITE_FENCE_GATE);
+        dropSelf(ModBlocks.FLUORITE_WALL);
+        dropSelf(ModBlocks.SAPPHIRE_FENCE);
+        dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE);
+        dropSelf(ModBlocks.SAPPHIRE_WALL);
+
+        dropSelf(ModBlocks.RUBY_TRAPDOOR);
+        dropSelf(ModBlocks.FLUORITE_TRAPDOOR);
+        dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR);
+        add(ModBlocks.RUBY_DOOR, this::createDoorTable);
+        add(ModBlocks.FLUORITE_DOOR, this::createDoorTable);
+        add(ModBlocks.SAPPHIRE_DOOR, this::createDoorTable);
+
+
+
         add(ModBlocks.RUBY_ORE, createMultipleOreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY, 1, 3));
         add(ModBlocks.DEEPSLATE_RUBY_ORE, createMultipleOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY, 2, 3));
         add(ModBlocks.FLUORITE_ORE, createMultipleOreDrops(ModBlocks.FLUORITE_ORE, ModItems.RAW_FLUORITE, 1, 2));

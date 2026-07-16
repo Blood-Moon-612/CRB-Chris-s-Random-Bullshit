@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "ruby",
+  "ingredients": [
+    "chrismod:ruby"
+  ],
+  "result": {
+    "id": "chrismod:ruby_button"
+  }
+}

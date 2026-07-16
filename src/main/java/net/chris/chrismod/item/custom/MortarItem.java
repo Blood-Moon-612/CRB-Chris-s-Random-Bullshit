@@ -1,9 +1,15 @@
 package net.chris.chrismod.item.custom;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemStackTemplate;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.TooltipDisplay;
 import org.jspecify.annotations.Nullable;
+
+import java.util.function.Consumer;
 
 public class MortarItem extends Item {
     public MortarItem(Properties properties) {
@@ -25,5 +31,17 @@ public class MortarItem extends Item {
 
         // 4. Convert the non-empty item stack safely back into a Template
         return ItemStackTemplate.fromNonEmptyStack(remainder);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack itemStack, TooltipContext context, TooltipDisplay display,
+                                Consumer<Component> builder, TooltipFlag tooltipFlag) {
+        if (Minecraft.getInstance().hasShiftDown()) {
+            builder.accept(Component.translatable("tooltip.chrismod.mortar.shift_down"));
+        }else {
+            builder.accept(Component.translatable("tooltip.chrismod.mortar"));
+        }
+
+        super.appendHoverText(itemStack, context, display, builder, tooltipFlag);
     }
 }

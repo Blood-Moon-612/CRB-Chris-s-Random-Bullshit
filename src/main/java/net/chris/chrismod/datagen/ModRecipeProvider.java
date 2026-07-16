@@ -13,6 +13,7 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 
 import java.util.List;
@@ -232,6 +233,225 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.IRON_HAMMER), has(ModItems.IRON_HAMMER))
                         .group("plate")
                         .save(output, "iron_plate_from_iron_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.IRON_PLATE, 1)
+                        .requires(Items.IRON_INGOT)
+                        .requires(ModItems.RUBY_HAMMER)
+                        .unlockedBy(getHasName(ModItems.RUBY_HAMMER), has(ModItems.RUBY_HAMMER))
+                        .group("plate")
+                        .save(output, "iron_plate_from_ruby_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.GOLD_PLATE, 1)
+                        .requires(Items.GOLD_INGOT)
+                        .requires(ModItems.STONE_HAMMER)
+                        .unlockedBy(getHasName(ModItems.STONE_HAMMER), has(ModItems.STONE_HAMMER))
+                        .group("plate")
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModItems.GOLD_PLATE, 1)
+                        .requires(Items.GOLD_INGOT)
+                        .requires(ModItems.IRON_HAMMER)
+                        .unlockedBy(getHasName(ModItems.IRON_HAMMER), has(ModItems.IRON_HAMMER))
+                        .group("plate")
+                        .save(output, "gold_plate_from_iron_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.GOLD_PLATE, 1)
+                        .requires(Items.GOLD_INGOT)
+                        .requires(ModItems.RUBY_HAMMER)
+                        .unlockedBy(getHasName(ModItems.RUBY_HAMMER), has(ModItems.RUBY_HAMMER))
+                        .group("plate")
+                        .save(output, "gold_plate_from_ruby_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.COPPER_PLATE, 1)
+                        .requires(Items.COPPER_INGOT)
+                        .requires(ModItems.STONE_HAMMER)
+                        .unlockedBy(getHasName(ModItems.STONE_HAMMER), has(ModItems.STONE_HAMMER))
+                        .group("plate")
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModItems.COPPER_PLATE, 1)
+                        .requires(Items.COPPER_INGOT)
+                        .requires(ModItems.IRON_HAMMER)
+                        .unlockedBy(getHasName(ModItems.IRON_HAMMER), has(ModItems.IRON_HAMMER))
+                        .group("plate")
+                        .save(output, "copper_plate_from_iron_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.COPPER_PLATE, 1)
+                        .requires(Items.COPPER_INGOT)
+                        .requires(ModItems.RUBY_HAMMER)
+                        .unlockedBy(getHasName(ModItems.RUBY_HAMMER), has(ModItems.RUBY_HAMMER))
+                        .group("plate")
+                        .save(output, "copper_plate_from_ruby_hammer");
+
+                shapeless(RecipeCategory.MISC, ModItems.STEEL_PLATE, 1)
+                        .requires(ModItems.STEEL_INGOT)
+                        .requires(ModItems.RUBY_HAMMER)
+                        .unlockedBy(getHasName(ModItems.RUBY_HAMMER), has(ModItems.RUBY_HAMMER))
+                        .group("plate")
+                        .save(output, "steel_plate_from_ruby_hammer");
+
+
+
+
+                shaped(RecipeCategory.MISC, ModItems.YOUR_DID_IT)
+                        .pattern(" H ")
+                        .pattern(" B ")
+                        .define('H', Items.HEAVY_CORE)
+                        .define('B', Items.BREEZE_ROD)
+                        .unlockedBy(getHasName(Items.HEAVY_CORE), has(Items.HEAVY_CORE))
+                        .group("mace")
+                        .save(output, "mace");
+
+
+                    shapeless(RecipeCategory.MISC, Items.HEAVY_CORE)
+                            .requires(ModItems.YOUR_DID_IT)
+                        .unlockedBy(getHasName(ModItems.YOUR_DID_IT), has(ModItems.YOUR_DID_IT))
+                        .group("mace")
+                        .save(output);
+
+
+                shaped(RecipeCategory.MISC, Items.MACE)
+                        .pattern(" H ")
+                        .pattern(" H ")
+                        .pattern(" B ")
+                        .define('H', Items.HEAVY_CORE)
+                        .define('B', Items.BREEZE_ROD)
+                        .unlockedBy(getHasName(Items.HEAVY_CORE), has(Items.HEAVY_CORE))
+                        .group("mace")
+                        .save(output, "custom_mace");
+
+                shaped(RecipeCategory.MISC, ModItems.BEER)
+                        .pattern("GBG")
+                        .pattern("GWG")
+                        .pattern("GOG")
+                        .define('G', Items.GLASS_PANE)
+                        .define('O', Items.POTION)
+                        .define('W', Items.WHEAT)
+                        .define('B', Items.BROWN_MUSHROOM)
+                        .unlockedBy(getHasName(Items.BROWN_MUSHROOM), has(Items.BROWN_MUSHROOM))
+                        .group("beer")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.BEER, 9)
+                        .pattern("GBG")
+                        .pattern("GWG")
+                        .pattern("GOG")
+                        .define('G', Items.GLASS)
+                        .define('O', Items.POTION)
+                        .define('W', Items.HAY_BLOCK)
+                        .define('B', Items.BROWN_MUSHROOM_BLOCK)
+                        .unlockedBy(getHasName(Items.BROWN_MUSHROOM_BLOCK), has(Items.BROWN_MUSHROOM_BLOCK))
+                        .group("beer")
+                        .save(output, "9_beer_from_blocks");
+
+                stairBuilder(ModBlocks.RUBY_STAIRS, Ingredient.of(ModBlocks.RUBY_BLOCK))
+                        .unlockedBy(getHasName(ModBlocks.RUBY_BLOCK), has(ModBlocks.RUBY_BLOCK))
+                        .group("ruby")
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB, ModBlocks.RUBY_BLOCK);
+
+                stairBuilder(ModBlocks.SAPPHIRE_STAIRS, Ingredient.of(ModBlocks.SAPPHIRE_BLOCK))
+                        .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK), has(ModBlocks.SAPPHIRE_BLOCK))
+                        .group("sapphire")
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_SLAB, ModBlocks.SAPPHIRE_BLOCK);
+
+                stairBuilder(ModBlocks.FLUORITE_STAIRS, Ingredient.of(ModBlocks.FLUORITE_BLOCK))
+                        .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK), has(ModBlocks.FLUORITE_BLOCK))
+                        .group("fluorite")
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_SLAB, ModBlocks.FLUORITE_BLOCK);
+
+                buttonBuilder(ModBlocks.RUBY_BUTTON,Ingredient.of(ModItems.RUBY))
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .save(output);
+
+                pressurePlate(ModBlocks.RUBY_PRESSURE_PLATE,ModItems.RUBY);
+
+                buttonBuilder(ModBlocks.FLUORITE_BUTTON,Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+
+                pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE,ModItems.FLUORITE);
+
+                buttonBuilder(ModBlocks.SAPPHIRE_BUTTON,Ingredient.of(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .group("sapphire")
+                        .save(output);
+
+                pressurePlate(ModBlocks.SAPPHIRE_PRESSURE_PLATE,ModItems.SAPPHIRE);
+
+                fenceBuilder(ModBlocks.RUBY_FENCE, Ingredient.of(ModItems.RUBY))
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.RUBY_FENCE_GATE, Ingredient.of(ModItems.RUBY))
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .save(output);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
+
+                fenceBuilder(ModBlocks.SAPPHIRE_FENCE, Ingredient.of(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .group("sapphire")
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.SAPPHIRE_FENCE_GATE, Ingredient.of(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .group("sapphire")
+                        .save(output);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_WALL, ModBlocks.SAPPHIRE_BLOCK);
+
+                fenceBuilder(ModBlocks.FLUORITE_FENCE, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.FLUORITE_FENCE_GATE, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_WALL, ModBlocks.FLUORITE_BLOCK);
+
+                doorBuilder(ModBlocks.RUBY_DOOR, Ingredient.of(ModItems.RUBY))
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .save(output);
+
+                trapdoorBuilder(ModBlocks.RUBY_TRAPDOOR, Ingredient.of(ModItems.RUBY))
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .save(output);
+
+                doorBuilder(ModBlocks.FLUORITE_DOOR, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+
+                trapdoorBuilder(ModBlocks.FLUORITE_TRAPDOOR, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+
+                doorBuilder(ModBlocks.SAPPHIRE_DOOR, Ingredient.of(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .group("sapphire")
+                        .save(output);
+
+                trapdoorBuilder(ModBlocks.SAPPHIRE_TRAPDOOR, Ingredient.of(ModItems.SAPPHIRE))
+                        .unlockedBy(getHasName(ModItems.SAPPHIRE), has(ModItems.SAPPHIRE))
+                        .group("sapphire")
+                        .save(output);
+
 
 
             }

@@ -14,6 +14,7 @@
   "item.chrismod.copper_plate": "Copper Plate",
   "item.chrismod.gold_plate": "Gold Plate",
   "item.chrismod.steel_plate": "Steel Plate",
+  "item.chrismod.your_did_it": "your did it",
 
 
 
@@ -28,6 +29,11 @@
 
   "item.chrismod.silly": "Silly",
 
+  "item.chrismod.strawberry": "Strawberry",
+  "item.chrismod.beer": "Beer",
+
+  "item.chrismod.lignite": "Lignite",
+
 
   "block.chrismod.ruby_block": "Block of Ruby",
   "block.chrismod.sapphire_block": "Block of sapphire",
@@ -39,11 +45,59 @@
   "block.chrismod.fluorite_ore": "Fluorite Ore",
   "block.chrismod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.chrismod.deepslate_fluorite_ore": "Deepslate Fluorite Ore",
-
   "block.chrismod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "block.chrismod.magic_block": "Magic Block",
+  "block.chrismod.gambling_block": "Gambling Block",
+
+  "block.chrismod.compressed_leaves": "Compressed Leaves",
+
+  "block.chrismod.ruby_stairs": "Ruby Stairs",
+  "block.chrismod.ruby_slab": "Ruby Slab",
+  "block.chrismod.sapphire_stairs": "Sapphire Stairs",
+  "block.chrismod.sapphire_slab": "Sapphire Slab",
+  "block.chrismod.fluorite_stairs": "Fluorite Stairs",
+
+  "block.chrismod.ruby_fence": "Ruby Fence",
+  "block.chrismod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.chrismod.ruby_wall": "Ruby Wall",
+  "block.chrismod.fluorite_fence": "Fluorite Fence",
+  "block.chrismod.fluorite_fence_gate": "Fluorite Fence Gate",
+  "block.chrismod.fluorite_wall": "Fluorite Wall",
+  "block.chrismod.sapphire_fence": "Sapphire Fence",
+  "block.chrismod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.chrismod.sapphire_wall": "Sapphire Wall",
+
+  "block.chrismod.ruby_button": "Ruby Button",
+  "block.chrismod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.chrismod.fluorite_button": "Fluorite Button",
+  "block.chrismod.fluorite_pressure_plate": "Fluorite Pressure Plate",
+  "block.chrismod.sapphire_button": "Sapphire Button",
+  "block.chrismod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+
+  "block.chrismod.ruby_door": "Ruby Door",
+  "block.chrismod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.chrismod.fluorite_door": "Fluorite Door",
+  "block.chrismod.fluorite_trapdoor": "Fluorite Trapdoor",
+  "block.chrismod.sapphire_door": "Sapphire Door",
+  "block.chrismod.sapphire_trapdoor": "Sapphire Trapdoor",
+
+
+
   "creativemodetab.chrismod.random_bullshit_items": "Random Bullshit",
   "creativemodetab.chrismod.silly_items": "Silly Items",
-  "creativemodetab.chrismod.random_bullshit_blocks": "Random Bullshit Blocks"
+  "creativemodetab.chrismod.random_bullshit_blocks": "Random Bullshit Blocks",
+
+  "tooltip.chrismod.chisel": "Press §eShift§r for more information",
+  "tooltip.chrismod.chisel.shift_down": "Right-click on blocks to chisel them into different blocks",
+  "tooltip.chrismod.hammer": "Press §eShift§r for more information",
+  "tooltip.chrismod.hammer.shift_down": "Use this item in the crafting table to make plates",
+  "tooltip.chrismod.mortar": "Press §eShift§r for more information",
+  "tooltip.chrismod.mortar.shift_down": "Use this item in the crafting table to make dusts",
+  "tooltip.chrismod.strawberry": "§cStrawberry§r",
+  "tooltip.chrismod.beer": "Maybe §cDON'T§r drive after this?",
+  "tooltip.chrismod.gambling_block": "Don't get §2addicted§r",
+  "tooltip.chrismod.magic_block": "Transforms items"
 
 
 }

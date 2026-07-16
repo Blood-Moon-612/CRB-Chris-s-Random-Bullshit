@@ -33,13 +33,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STEEL_PLATE);
                         output.accept(ModItems.STEEL_DUST);
                         output.accept(ModItems.CAST_IRON);
+
                         output.accept(ModItems.CHISEL);
+
                         output.accept(ModItems.MORTAR);
                         output.accept(ModItems.IRON_MORTAR);
                         output.accept(ModItems.RUBY_MORTAR);
+
                         output.accept(ModItems.STONE_HAMMER);
                         output.accept(ModItems.IRON_HAMMER);
                         output.accept(ModItems.RUBY_HAMMER);
+
+                        output.accept(ModItems.STRAWBERRY);
+                        output.accept(ModItems.BEER);
+
+                        output.accept(ModItems.LIGNITE);
 
 
                     }).build());
@@ -53,12 +61,45 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FLUORITE_BLOCK);
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
                         output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
+
                         output.accept(ModBlocks.RUBY_ORE);
                         output.accept(ModBlocks.SAPPHIRE_ORE);
                         output.accept(ModBlocks.FLUORITE_ORE);
                         output.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
                         output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         output.accept(ModBlocks.DEEPSLATE_FLUORITE_ORE);
+
+                        output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModBlocks.GAMBLING_BLOCK);
+                        output.accept(ModBlocks.COMPRESSED_LEAVES);
+
+                        output.accept(ModBlocks.RUBY_STAIRS);
+                        output.accept(ModBlocks.RUBY_SLAB);
+                        output.accept(ModBlocks.FLUORITE_STAIRS);
+                        output.accept(ModBlocks.FLUORITE_SLAB);
+                        output.accept(ModBlocks.SAPPHIRE_STAIRS);
+                        output.accept(ModBlocks.SAPPHIRE_SLAB);
+                        output.accept(ModBlocks.RUBY_BUTTON);
+                        output.accept(ModBlocks.RUBY_PRESSURE_PLATE);
+                        output.accept(ModBlocks.FLUORITE_BUTTON);
+                        output.accept(ModBlocks.FLUORITE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.SAPPHIRE_BUTTON);
+                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.RUBY_FENCE);
+                        output.accept(ModBlocks.RUBY_FENCE_GATE);
+                        output.accept(ModBlocks.RUBY_WALL);
+                        output.accept(ModBlocks.FLUORITE_FENCE);
+                        output.accept(ModBlocks.FLUORITE_FENCE_GATE);
+                        output.accept(ModBlocks.FLUORITE_WALL);
+                        output.accept(ModBlocks.SAPPHIRE_FENCE);
+                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE);
+                        output.accept(ModBlocks.SAPPHIRE_WALL);
+                        output.accept(ModBlocks.RUBY_DOOR);
+                        output.accept(ModBlocks.RUBY_TRAPDOOR);
+                        output.accept(ModBlocks.FLUORITE_DOOR);
+                        output.accept(ModBlocks.FLUORITE_TRAPDOOR);
+                        output.accept(ModBlocks.SAPPHIRE_DOOR);
+                        output.accept(ModBlocks.SAPPHIRE_TRAPDOOR);
 
 
                     }).build());
@@ -69,6 +110,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.chrismod.silly_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.SILLY);
+                        output.accept(ModBlocks.GAMBLING_BLOCK);
+                        output.accept(ModItems.YOUR_DID_IT);
 
                     }).build());
 

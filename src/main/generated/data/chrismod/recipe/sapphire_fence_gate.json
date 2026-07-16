@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "sapphire",
+  "key": {
+    "#": "minecraft:stick",
+    "W": "chrismod:sapphire"
+  },
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "result": {
+    "id": "chrismod:sapphire_fence_gate"
+  }
+}

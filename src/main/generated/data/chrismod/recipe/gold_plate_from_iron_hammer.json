@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "plate",
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "chrismod:iron_hammer"
+  ],
+  "result": {
+    "id": "chrismod:gold_plate"
+  }
+}

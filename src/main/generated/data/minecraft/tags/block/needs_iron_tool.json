@@ -6,6 +6,24 @@
     "chrismod:fluorite_block",
     "chrismod:fluorite_ore",
     "chrismod:deepslate_fluorite_ore",
-    "chrismod:raw_fluorite_block"
+    "chrismod:raw_fluorite_block",
+    "chrismod:ruby_slab",
+    "chrismod:ruby_stairs",
+    "chrismod:fluorite_slab",
+    "chrismod:fluorite_stairs",
+    "chrismod:ruby_button",
+    "chrismod:ruby_pressure_plate",
+    "chrismod:fluorite_button",
+    "chrismod:fluorite_pressure_plate",
+    "chrismod:ruby_fence",
+    "chrismod:ruby_fence_gate",
+    "chrismod:ruby_wall",
+    "chrismod:fluorite_fence",
+    "chrismod:fluorite_fence_gate",
+    "chrismod:fluorite_wall",
+    "chrismod:ruby_door",
+    "chrismod:ruby_trapdoor",
+    "chrismod:fluorite_trapdoor",
+    "chrismod:fluorite_door"
   ]
 }

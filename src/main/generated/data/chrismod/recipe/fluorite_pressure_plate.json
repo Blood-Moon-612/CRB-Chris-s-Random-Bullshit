@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "chrismod:fluorite"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "chrismod:fluorite_pressure_plate"
+  }
+}

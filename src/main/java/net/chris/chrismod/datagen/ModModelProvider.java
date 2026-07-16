@@ -15,9 +15,6 @@ public class ModModelProvider extends FabricModelProvider{
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-        blockModelGenerators.createTrivialCube(ModBlocks.RUBY_BLOCK);
-        blockModelGenerators.createTrivialCube(ModBlocks.SAPPHIRE_BLOCK);
-        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.RAW_SAPPHIRE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.RAW_FLUORITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.RUBY_ORE);
@@ -26,6 +23,49 @@ public class ModModelProvider extends FabricModelProvider{
         blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_FLUORITE_ORE);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.GAMBLING_BLOCK);
+
+        blockModelGenerators.createTrivialCube(ModBlocks.COMPRESSED_LEAVES);
+
+        blockModelGenerators.family(ModBlocks.RUBY_BLOCK)
+                .stairs(ModBlocks.RUBY_STAIRS)
+                .slab(ModBlocks.RUBY_SLAB)
+                .button(ModBlocks.RUBY_BUTTON)
+                .pressurePlate(ModBlocks.RUBY_PRESSURE_PLATE)
+                .fence(ModBlocks.RUBY_FENCE)
+                .fenceGate(ModBlocks.RUBY_FENCE_GATE)
+                .wall(ModBlocks.RUBY_WALL);
+
+        blockModelGenerators.createDoor(ModBlocks.RUBY_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+
+        blockModelGenerators.family(ModBlocks.SAPPHIRE_BLOCK)
+                .stairs(ModBlocks.SAPPHIRE_STAIRS)
+                .slab(ModBlocks.SAPPHIRE_SLAB)
+                .button(ModBlocks.SAPPHIRE_BUTTON)
+                .pressurePlate(ModBlocks.SAPPHIRE_PRESSURE_PLATE)
+                .fence(ModBlocks.SAPPHIRE_FENCE)
+                .fenceGate(ModBlocks.SAPPHIRE_FENCE_GATE)
+                .wall(ModBlocks.SAPPHIRE_WALL);
+
+        blockModelGenerators.createDoor(ModBlocks.SAPPHIRE_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.SAPPHIRE_TRAPDOOR);
+
+        blockModelGenerators.family(ModBlocks.FLUORITE_BLOCK)
+                .stairs(ModBlocks.FLUORITE_STAIRS)
+                .slab(ModBlocks.FLUORITE_SLAB)
+                .button(ModBlocks.FLUORITE_BUTTON)
+                .pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE)
+                .fence(ModBlocks.FLUORITE_FENCE)
+                .fenceGate(ModBlocks.FLUORITE_FENCE_GATE)
+                .wall(ModBlocks.FLUORITE_WALL);
+
+        blockModelGenerators.createDoor(ModBlocks.FLUORITE_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.FLUORITE_TRAPDOOR);
+
+
     }
 
     @Override
@@ -47,6 +87,7 @@ public class ModModelProvider extends FabricModelProvider{
         itemModelGenerators.generateFlatItem(ModItems.STEEL_PLATE, ModelTemplates.FLAT_ITEM);
 
         itemModelGenerators.generateFlatItem(ModItems.SILLY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.YOUR_DID_IT, ModelTemplates.FLAT_ITEM);
 
         itemModelGenerators.generateFlatItem(ModItems.CHISEL, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.MORTAR, ModelTemplates.FLAT_HANDHELD_ITEM);
@@ -56,6 +97,11 @@ public class ModModelProvider extends FabricModelProvider{
         itemModelGenerators.generateFlatItem(ModItems.STONE_HAMMER, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.IRON_HAMMER, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RUBY_HAMMER, ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        itemModelGenerators.generateFlatItem(ModItems.STRAWBERRY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.BEER, ModelTemplates.FLAT_ITEM);
+
+        itemModelGenerators.generateFlatItem(ModItems.LIGNITE, ModelTemplates.FLAT_ITEM);
 
     }
 }

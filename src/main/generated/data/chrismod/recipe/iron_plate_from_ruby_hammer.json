@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "plate",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "chrismod:ruby_hammer"
+  ],
+  "result": {
+    "id": "chrismod:iron_plate"
+  }
+}

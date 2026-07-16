@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "chrismod:sapphire"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "chrismod:sapphire_pressure_plate"
+  }
+}

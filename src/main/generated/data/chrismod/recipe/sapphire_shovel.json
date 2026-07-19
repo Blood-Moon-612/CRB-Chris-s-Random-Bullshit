@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "sapphire",
+  "key": {
+    "R": "chrismod:sapphire",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "R",
+    "S",
+    "S"
+  ],
+  "result": {
+    "id": "chrismod:sapphire_shovel"
+  }
+}

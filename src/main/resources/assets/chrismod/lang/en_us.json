@@ -34,6 +34,30 @@
 
   "item.chrismod.lignite": "Lignite",
 
+  "item.chrismod.blazed_forged_steel": "Blaze-Forged Steel",
+
+  "item.chrismod.ruby_sword": "Ruby Sword",
+  "item.chrismod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.chrismod.ruby_axe": "Ruby Axe",
+  "item.chrismod.ruby_hoe": "Ruby Hoe",
+  "item.chrismod.ruby_shovel": "Ruby Shovel",
+
+  "item.chrismod.sapphire_sword": "Sapphire Sword",
+  "item.chrismod.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.chrismod.sapphire_axe": "Sapphire Axe",
+  "item.chrismod.sapphire_hoe": "Sapphire Hoe",
+  "item.chrismod.sapphire_shovel": "Sapphire Shovel",
+
+  "item.chrismod.ruby_helmet": "Ruby Helmet",
+  "item.chrismod.ruby_chestplate": "Ruby Chestplate",
+  "item.chrismod.ruby_leggings": "Ruby Leggings",
+  "item.chrismod.ruby_boots": "Ruby Boots",
+
+  "item.chrismod.sapphire_helmet": "Sapphire Helmet",
+  "item.chrismod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.chrismod.sapphire_leggings": "Sapphire Leggings",
+  "item.chrismod.sapphire_boots": "Sapphire Boots",
+
 
   "block.chrismod.ruby_block": "Block of Ruby",
   "block.chrismod.sapphire_block": "Block of sapphire",

@@ -49,6 +49,36 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.LIGNITE);
 
+                        output.accept(ModItems.RUBY_SWORD);
+                        output.accept(ModItems.RUBY_AXE);
+                        output.accept(ModItems.RUBY_PICKAXE);
+                        output.accept(ModItems.RUBY_SHOVEL);
+                        output.accept(ModItems.RUBY_HOE);
+                     //   output.accept(ModItems.RUBY_SPEAR);
+
+                        output.accept(ModItems.SAPPHIRE_SWORD);
+                        output.accept(ModItems.SAPPHIRE_AXE);
+                        output.accept(ModItems.SAPPHIRE_PICKAXE);
+                        output.accept(ModItems.SAPPHIRE_SHOVEL);
+                        output.accept(ModItems.SAPPHIRE_HOE);
+                    //    output.accept(ModItems.SAPPHIRE_SPEAR);
+
+                      //  output.accept(ModItems.STEEL_SWORD);
+                     //   output.accept(ModItems.STEEL_AXE);
+                     //   output.accept(ModItems.STEEL_PICKAXE);
+                     //   output.accept(ModItems.STEEL_SHOVEL);
+                     //   output.accept(ModItems.STEEL_HOE);
+
+                        output.accept(ModItems.RUBY_HELMET);
+                        output.accept(ModItems.RUBY_CHESTPLATE);
+                        output.accept(ModItems.RUBY_LEGGINGS);
+                        output.accept(ModItems.RUBY_BOOTS);
+
+                        output.accept(ModItems.SAPPHIRE_HELMET);
+                        output.accept(ModItems.SAPPHIRE_CHESTPLATE);
+                        output.accept(ModItems.SAPPHIRE_LEGGINGS);
+                        output.accept(ModItems.SAPPHIRE_BOOTS);
+
 
                     }).build());
     public static final CreativeModeTab RANDOM_BULLSHIT_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,

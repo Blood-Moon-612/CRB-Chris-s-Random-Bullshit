@@ -7,8 +7,8 @@
     "H": "minecraft:heavy_core"
   },
   "pattern": [
-    " H ",
-    " B "
+    "H",
+    "B"
   ],
   "result": {
     "id": "chrismod:your_did_it"

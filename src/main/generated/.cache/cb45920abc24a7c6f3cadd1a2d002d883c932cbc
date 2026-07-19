@@ -1,10 +1,15 @@
 // 26.1.2	-999999999-01-01T00:00:00	Chris's Random Bullshit/Tags for minecraft:block
+20ff0c7bc50326d96f30d2b3f74a159857157f64 data/chrismod/tags/block/incorrect_for_ruby_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/chrismod/tags/block/incorrect_for_sapphire_tool.json
+96a9f5263055f6bb36ffd6c13c5dae9c47b2eeca data/chrismod/tags/block/needs_ruby_tool.json
+832ed968c7b0f054e62a4b6e37b48e2a0e404b0d data/chrismod/tags/block/needs_sapphire_tool.json
 5f65baa77ba816dfd75d2cc27a2c1730c5ce162f data/minecraft/tags/block/buttons.json
 0b22cdb13d6b82ecb1d339e1ec9ece6805915328 data/minecraft/tags/block/doors.json
 8afe60d5f04d8a038900ba03326c99d35d38ad45 data/minecraft/tags/block/fence_gates.json
 0d70870a645e35c7e8b4dd6dda94a04ce1ade91a data/minecraft/tags/block/fences.json
+4a76d3b0a8aa23a3a87a2518f1967f5ad4b6cac0 data/minecraft/tags/block/incorrect_for_iron_tool.json
 230c47ea04c8e6338729acd4f7ce570f66571cee data/minecraft/tags/block/mineable/pickaxe.json
-96a9f5263055f6bb36ffd6c13c5dae9c47b2eeca data/minecraft/tags/block/needs_diamond_tool.json
+01c83076a79daac23b51bcb33b623b81a2c21856 data/minecraft/tags/block/needs_diamond_tool.json
 cff8511682406c84ac38788b59f6da89c1593205 data/minecraft/tags/block/needs_iron_tool.json
 9e38387644b9b86276a5ee5290992ab4b74f4ebe data/minecraft/tags/block/pressure_plates.json
 66e11bffe7e5adfd82847519c045809b89e545b0 data/minecraft/tags/block/slabs.json

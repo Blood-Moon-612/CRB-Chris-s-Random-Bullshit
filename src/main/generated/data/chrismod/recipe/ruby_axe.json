@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "ruby",
+  "key": {
+    "R": "chrismod:ruby",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "RR",
+    "RS",
+    " S"
+  ],
+  "result": {
+    "id": "chrismod:ruby_axe"
+  }
+}

@@ -7,9 +7,9 @@
     "H": "minecraft:heavy_core"
   },
   "pattern": [
-    " H ",
-    " H ",
-    " B "
+    "H",
+    "H",
+    "B"
   ],
   "result": {
     "id": "minecraft:mace"

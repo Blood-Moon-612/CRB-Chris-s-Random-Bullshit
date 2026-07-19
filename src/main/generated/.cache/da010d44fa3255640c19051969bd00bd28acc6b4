@@ -1,2 +1,11 @@
 // 26.1.2	-999999999-01-01T00:00:00	Chris's Random Bullshit/Tags for minecraft:item
 e0ebb5ba46b4041d207dcd8d5368557aa0e4ff35 data/chrismod/tags/item/transformable_items.json
+d03937620d33acc97ffb4bbffd19fe7c9520c1b6 data/minecraft/tags/item/axes.json
+9ce0ffb8dd08a2126c2e07999a3d2b58e869cbf6 data/minecraft/tags/item/chest_armor.json
+35313d812306f1f72e2092592684526ba69e3497 data/minecraft/tags/item/foot_armor.json
+bfd40154f5eaa97105c134ca581c3380bd31ce93 data/minecraft/tags/item/head_armor.json
+b02549daf42574840c0a6a4648017acd5b7054a7 data/minecraft/tags/item/hoes.json
+c1d6813e34189427d5c50b49e5af3ad5d00108d1 data/minecraft/tags/item/leg_armor.json
+8ad52905519bcaaa0ee437140e615b9a01fd5823 data/minecraft/tags/item/pickaxes.json
+6745288dedc110504f872b460331a51ec05e6a2e data/minecraft/tags/item/shovels.json
+cea4c82000b7411343e9243eb7ab7fd83601c93b data/minecraft/tags/item/swords.json

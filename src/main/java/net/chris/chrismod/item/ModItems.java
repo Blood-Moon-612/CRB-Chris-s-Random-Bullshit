@@ -12,11 +12,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
@@ -39,6 +37,9 @@ public class ModItems {
     public static final Item STEEL_PLATE = registerItem("steel_plate", Item::new);
     public static final Item YOUR_DID_IT = registerItem("your_did_it", Item::new);
 
+    public static final Item BLAZE_FORGED_STEEL = registerItem("blaze_forged_steel", Item::new);
+    public static final Item CURSED_FRAGMENT = registerItem("cursed_fragment", Item::new);
+
     public static final Item LIGNITE = registerItem("lignite", properties -> new Item(properties.stacksTo(63)));
 
 
@@ -51,6 +52,74 @@ public class ModItems {
     public static final Item STONE_HAMMER = registerItem("stone_hammer", properties -> new HammerItem(properties.durability(64)));
     public static final Item IRON_HAMMER = registerItem("iron_hammer", properties -> new HammerItem(properties.durability(128)));
     public static final Item RUBY_HAMMER  = registerItem("ruby_hammer", properties -> new HammerItem(properties.durability(192)));
+
+
+
+    public static final Item RUBY_SWORD  = registerItem("ruby_sword",
+            properties -> new Item(properties.sword(ModToolMaterial.RUBY, 3, -2.4f).fireResistant()));
+    public static final Item RUBY_PICKAXE  = registerItem("ruby_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterial.RUBY, 1, -2.8f)));
+    public static final Item RUBY_SHOVEL  = registerItem("ruby_shovel",
+            properties -> new ShovelItem(ModToolMaterial.RUBY, 1.5f, -3.0f,properties));
+    public static final Item RUBY_AXE  = registerItem("ruby_axe",
+            properties -> new AxeItem(ModToolMaterial.RUBY, 5, -3.2f,properties));
+    public static final Item RUBY_HOE  = registerItem("ruby_hoe",
+            properties -> new HoeItem(ModToolMaterial.RUBY, 0f, -3.0f,properties));
+  //  public static final Item RUBY_SPEAR  = registerItem("ruby_spear",
+   //         properties -> new Item(properties.spear(ModToolMaterial.RUBY, 0.95F, 0.95F, 0.6F,
+   //                2.5F, 11.0F, 6.75F, 5.1F, 11F, 4.6F)));
+
+
+    public static final Item SAPPHIRE_SWORD  = registerItem("sapphire_sword",
+            properties -> new Item(properties.sword(ModToolMaterial.SAPPHIRE, 3, -2.4f).fireResistant()));
+    public static final Item SAPPHIRE_PICKAXE  = registerItem("sapphire_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterial.SAPPHIRE, 1, -2.8f)));
+    public static final Item SAPPHIRE_SHOVEL  = registerItem("sapphire_shovel",
+            properties -> new ShovelItem(ModToolMaterial.SAPPHIRE, 1.5f, -3.0f,properties));
+    public static final Item SAPPHIRE_AXE  = registerItem("sapphire_axe",
+            properties -> new AxeItem(ModToolMaterial.SAPPHIRE, 5, -3.2f,properties));
+    public static final Item SAPPHIRE_HOE  = registerItem("sapphire_hoe",
+            properties -> new HoeItem(ModToolMaterial.SAPPHIRE, 0f, -3.0f,properties));
+  //  public static final Item SAPPHIRE_SPEAR  = registerItem("sapphire_spear",
+   //         properties -> new Item(properties.spear(ModToolMaterial.SAPPHIRE, 1F, 1F, 0.55F,
+    //                2.5F, 10.5F, 6.5F, 5.1F, 10.5F, 4.6F)));
+
+    public static final Item STEEL_SWORD  = registerItem("steel_sword",
+            properties -> new Item(properties.sword(ModToolMaterial.STEEL, 3, -2.4f).fireResistant()));
+    public static final Item STEEL_PICKAXE  = registerItem("steel_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterial.STEEL, 1, -2.8f)));
+    public static final Item STEEL_SHOVEL  = registerItem("steel_shovel",
+               properties -> new ShovelItem(ModToolMaterial.STEEL, 1.5f, -3.0f,properties));
+    public static final Item STEEL_AXE  = registerItem("steel_axe",
+            properties -> new AxeItem(ModToolMaterial.STEEL, 6, -3.2f,properties));
+    public static final Item STEEL_HOE  = registerItem("steel_hoe",
+          properties -> new HoeItem(ModToolMaterial.STEEL, 0f, -3.0f,properties));
+
+
+    public static final Item RUBY_HELMET  = registerItem("ruby_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item RUBY_CHESTPLATE  = registerItem("ruby_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item RUBY_LEGGINGS  = registerItem("ruby_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item RUBY_BOOTS  = registerItem("ruby_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final Item SAPPHIRE_HELMET  = registerItem("sapphire_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorType.HELMET)));
+
+    public static final Item SAPPHIRE_CHESTPLATE  = registerItem("sapphire_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+
+    public static final Item SAPPHIRE_LEGGINGS  = registerItem("sapphire_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+
+    public static final Item SAPPHIRE_BOOTS  = registerItem("sapphire_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SAPPHIRE_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
 
 
     public static final Item STRAWBERRY = registerItem("strawberry", properties -> new Item(properties

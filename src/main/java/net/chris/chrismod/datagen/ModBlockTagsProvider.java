@@ -1,11 +1,13 @@
 package net.chris.chrismod.datagen;
 
 import net.chris.chrismod.block.ModBlocks;
+import net.chris.chrismod.item.ModToolMaterial;
 import net.chris.chrismod.tags.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -86,7 +88,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.FLUORITE_DOOR);
 
 
-        valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+        valueLookupBuilder(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.SAPPHIRE_BLOCK)
                 .add(ModBlocks.SAPPHIRE_ORE)
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE)
@@ -101,6 +103,27 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.SAPPHIRE_TRAPDOOR)
                 .add(ModBlocks.SAPPHIRE_DOOR);
 
+
+        valueLookupBuilder(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(Blocks.DIAMOND_ORE)
+                .add(Blocks.DIAMOND_BLOCK)
+                .add(Blocks.DEEPSLATE_DIAMOND_ORE);
+
+        valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(Blocks.OBSIDIAN)
+                .add(Blocks.CRYING_OBSIDIAN)
+                .add(Blocks.NETHERITE_BLOCK)
+                .add(Blocks.RESPAWN_ANCHOR)
+                .add(Blocks.ANCIENT_DEBRIS);
+
+        valueLookupBuilder(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .addTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
+
+        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
+                .addTag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL);
+
+        valueLookupBuilder(ModTags.Blocks.INCORRECT_FOR_SAPPHIRE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         valueLookupBuilder(BlockTags.STAIRS).add(ModBlocks.RUBY_STAIRS).add(ModBlocks.SAPPHIRE_STAIRS).add(ModBlocks.FLUORITE_STAIRS);
         valueLookupBuilder(BlockTags.SLABS).add(ModBlocks.RUBY_SLAB).add(ModBlocks.SAPPHIRE_SLAB).add(ModBlocks.FLUORITE_SLAB);
